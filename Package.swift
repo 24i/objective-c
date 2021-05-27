@@ -20,6 +20,7 @@ let package = Package(
             name: "PubNub",
             dependencies: [],
             path: "PubNub",
+            publicHeadersPath: "PubNub",
             cSettings: [
                 //I could not find how to set the recursive option -_-
                 .headerSearchPath("."),
